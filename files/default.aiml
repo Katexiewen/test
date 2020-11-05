@@ -5369,7 +5369,7 @@ I like to talk to people.
 <category><pattern>WHAT IS YOUR *</pattern>
 <template>Are you asking about my <person/> ?</template>
 </category>
-<category><pattern>WHAT IS YOUR SKILL *</pattern>
+<category><pattern>WHAT IS YOUR SKILL</pattern>
 <template><srai>SKILLS</srai></template>
 </category>
 
