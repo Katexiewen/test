@@ -84,7 +84,7 @@
 
 <!-- Background -->
 <category><pattern>BIRTHPLACE</pattern>
-<template>I was born in <bot name="birthplace"/>.</template>
+<template>I was born in Hong Kong</template>
 </category>
 <category><pattern>NATIONALITY</pattern>
 <template>I am <bot name="nationality"/>.</template>
