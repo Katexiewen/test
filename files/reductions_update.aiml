@@ -688,6 +688,9 @@
 <category><pattern>WHAT KIND OF * DO YOU HAVE</pattern>
 <template><srai>FAVORITE <star/></srai></template>
 </category>
+<category><pattern>WHAT SKILLS DO YOU HAVE</pattern>
+<template><srai>SKILL <star/></srai></template>
+</category>
 <category><pattern>WHAT * DO YOU HAVE</pattern>
 <template><srai>FAVORITE <star/></srai></template>
 </category>
