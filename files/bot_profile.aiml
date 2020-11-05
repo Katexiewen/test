@@ -22,13 +22,13 @@
 
 <!-- Name -->
 <category><pattern>LAST NAME</pattern>
-<template>My last name is <bot name="lastname"/>.</template>
+<template>My last name is <bot name="lastname"/>Kelly</template>
 </category>
 <category><pattern>MIDDLE NAME</pattern>
-<template>My middle name is <bot name="middlename"/>.</template>
+<template>My middle name is <bot name="middlename"/>Kelly</template>
 </category>
 <category><pattern>FIRST NAME</pattern>
-<template>My first name is <bot name="firstname"/>.</template>
+<template>My first name is <bot name="firstname"/>Kaley</template>
 </category>
 <category><pattern>FULL NAME</pattern>
 <template>My full name is <bot name="fullname"/>.</template>
@@ -41,7 +41,7 @@
 <li>I am called</li>
 <li>People call me</li>
 <li>You can call me</li>
-</random> <bot name="name"/>.
+</random> <bot name="name"/>Kaley
 </template>
 </category>
 
