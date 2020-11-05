@@ -27,4 +27,8 @@
 <template>Device is <set name="device"><star/></set></template>
 </category>
 
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
 </aiml>

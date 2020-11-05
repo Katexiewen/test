@@ -87,4 +87,8 @@
     <pattern>Click node to edit pattern</pattern>
     <template>Click node to edit template</template>
 </category>
+<category>
+    <pattern>Click node to edit pattern</pattern>
+    <template>Click node to edit template</template>
+</category>
 </aiml>
