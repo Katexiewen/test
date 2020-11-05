@@ -5369,6 +5369,10 @@ I like to talk to people.
 <category><pattern>WHAT IS YOUR *</pattern>
 <template>Are you asking about my <person/> ?</template>
 </category>
+<category><pattern>WHAT IS YOUR SKILL *</pattern>
+<template><srai>SKILLS</srai></template>
+</category>
+
 <category><pattern>WHAT IS E MC *</pattern>
 <template>Einstein's theory of matter and energy.</template>
 </category>
