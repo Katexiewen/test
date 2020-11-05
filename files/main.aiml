@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+
+
+
+<category>
+  <pattern>Hi</pattern>
+  <template>Hi! How can I help you?</template>
+</category>
+
+<category>
+  <pattern>My weight is *</pattern>
+  <template>It is better to exercise twice a week.</template>
+</category>
+
+<category>
+  <pattern>How _ send _</pattern>
+  <template>Just type in the chat whinow. e.g. My slogan is xxxxxxxxx</template>
+</category>
+
+<category>
+  <pattern># slogan is _</pattern>
+  <template>Well reveived with thanks. Please close the chat and continue</template>
+</category>
+
+<category>
+  <pattern># slogan are _</pattern>
+  <template>Well reveived with thanks. Please close the chat and continue</template>
+</category>
+
+<category>
+  <pattern># slogan: _</pattern>
+  <template>Well reveived with thanks. Please close the chat and continue</template>
+</category>
+
+<category>
+  <pattern># slogan : _</pattern>
+  <template>Well reveived with thanks. Please close the chat and continue</template>
+</category>
+
+<category>
+  <pattern># slogan--_</pattern>
+  <template>Well reveived with thanks. Please close the chat and continue</template>
+</category>
+
+
+<category>
+  <pattern># slogan-_</pattern>
+  <template>Well reveived with thanks. Please close the chat and continue</template>
+</category>
+
+<category>
+  <pattern>what # slogan #</pattern>
+  <template>a short and striking or memorable phrase to express your self</template>
+</category>
+
+
+
+</aiml>
