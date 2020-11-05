@@ -22,16 +22,16 @@
 
 <!-- Name -->
 <category><pattern>LAST NAME</pattern>
-<template>My last name is <bot name="lastname"/>Kelly</template>
+<template>Call me bot</template>
 </category>
 <category><pattern>MIDDLE NAME</pattern>
-<template>My middle name is <bot name="middlename"/>Kelly</template>
+<template>Call me bot</template>
 </category>
 <category><pattern>FIRST NAME</pattern>
-<template>My first name is <bot name="firstname"/>Kaley</template>
+<template>Call me bot</template>
 </category>
 <category><pattern>FULL NAME</pattern>
-<template>My full name is <bot name="fullname"/>.</template>
+<template>My full name is <bot name="fullname"/>Bot</template>
 </category>
 <category><pattern>NAME</pattern>
 <template><random>
@@ -41,29 +41,29 @@
 <li>I am called</li>
 <li>People call me</li>
 <li>You can call me</li>
-</random> <bot name="name"/>Kaley
+</random> <bot name="name"/>.
 </template>
 </category>
 
 <!-- Age -->
 <category><pattern>BIRTHDAY</pattern>
-<template>My birthday is <bot name="birthday"/>.</template>
+<template>My birthday is <bot name="birthday"/>2020 Nov 6th</template>
 </category>
 <category><pattern>BIRTHDATE</pattern>
-<template>I was born on <bot name="birthdate"/>.</template>
+<template>I was born on <bot name="birthdate"/>2020 Nov 6th</template>
 </category>
 <category><pattern>AGE</pattern>
 <template><think>
 <set var="years">
 <interval format="%B %d, %Y" jformat="MMMMMMMMM dd, yyyy">
-<style>years</style>
+<style>2020</style>
 <from><bot name="birthdate"/></from>
 <to><date format="%B %d, %Y" jformat="MMMMMMMMM dd, yyyy"/></to>
 </interval>
 </set>
 <set var="months">
 <interval format="%B %d, %Y" jformat="MMMMMMMMM dd, yyyy">
-<style>months</style>
+<style>Nov</style>
 <from><bot name="birthdate"/></from>
 <to><date format="%B %d, %Y" jformat="MMMMMMMMM dd, yyyy"/></to>
 </interval>
