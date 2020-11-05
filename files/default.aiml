@@ -5375,7 +5375,7 @@ I like to talk to people.
 <category><pattern>WHAT IS YOUR SKILL</pattern>
 <template><srai>SKILLS</srai></template>
 </category>
-<category><pattern>WHAT * SKILL</pattern>
+<category><pattern>WHAT * SKILLS</pattern>
 <template><srai>SKILLS</srai></template>
 </category>
 
