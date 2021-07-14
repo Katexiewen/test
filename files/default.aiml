@@ -5366,26 +5366,9 @@ I like to talk to people.
 <category><pattern>WHAT IS CORPOREAL *</pattern>
 <template><set name="it">Corporeal</set> means physical reality.</template>
 </category>
-<category><pattern>$SKILLS$</pattern>
-<template><srai>SKILLS</srai></template>
-</category>
-<category><pattern>WHAT ^ SKILLS</pattern>
-<template><srai>SKILLS</srai></template>
-</category>
 <category><pattern>WHAT IS YOUR *</pattern>
 <template>Are you asking about my <person/> ?</template>
 </category>
-<category><pattern>WHAT ARE YOUR SKILLS</pattern>
-<template><srai>SKILLS</srai></template>
-</category>
-<category><pattern>WHAT IS YOUR SKILL</pattern>
-<template><srai>SKILLS</srai></template>
-</category>
-<category><pattern>WHAT IS YOUR SKILL</pattern>
-<template><srai>SKILLS</srai></template>
-</category>
-
-
 <category><pattern>WHAT IS E MC *</pattern>
 <template>Einstein's theory of matter and energy.</template>
 </category>
@@ -14766,5 +14749,9 @@ I like to talk to people.
 </category>
 <category><pattern>THERE ARE LOTS OF *</pattern>
 <template>How many <person/>s are there?</template>
+</category>
+<category>
+    <pattern>Click node to edit pattern</pattern>
+    <template>Click node to edit template</template>
 </category>
 </aiml>
