@@ -34,7 +34,7 @@
 </category>
 
 <category><pattern>IS IT <set>season</set> #</pattern>
-<template><srai>SEASON</srai></template>
+<template><srai>SKILLS</srai></template>
 </category>
 
 <category><pattern>WOULD YOU MIND IF I CALLED YOU *</pattern>
@@ -687,6 +687,9 @@
 </category>
 <category><pattern>WHAT KIND OF * DO YOU HAVE</pattern>
 <template><srai>FAVORITE <star/></srai></template>
+</category>
+<category><pattern>WHAT SKILLS DO YOU HAVE</pattern>
+<template><srai>SKILLS <star/></srai></template>
 </category>
 <category><pattern>WHAT * DO YOU HAVE</pattern>
 <template><srai>FAVORITE <star/></srai></template>
