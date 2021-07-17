@@ -11,66 +11,101 @@
 </category>
 
 <category>
-  <pattern>What * flower*</pattern>
-  <template>It is better to exercise twice a week.</template>
+    <pattern>INITIAL BOT MESSAGE </pattern>
+    <template> 
+        Hi, My name is Kate. I am a girl.  
+        In order to better recommend a long coat to you, tell me about you.
+        How old are you? 
+        <button>
+            <text>less than or equal to 20 years old;</text>
+            <postback>"Q1~age~less~20"</postback>
+        </button>
+        <button>
+            <text>21 years old to 25 years old;</text>
+            <postback>"Q1~age~21~25"</postback>
+        </button>
+        <button>
+            <text>26 years old to 30 years old;</text>
+            <postback>"Q1~age~26~30"</postback>
+        </button>
+        <button>
+            <text>31 years old to 35 years old;</text>
+            <postback>"Q1~age~31~35"</postback>
+        </button>
+        <button>
+            <text>36 years old to 40 years old;</text>
+            <postback>"Q1~age~36~40"</postback>
+        </button>
+        <button>
+            <text>36 years old to 40 years old;</text>
+            <postback>"Q1~age~36~40"</postback>
+        </button>
+        <button>
+            <text>41 years old to 45 years old;</text>
+            <postback>"Q1~age~41~45"</postback>
+        </button>
+        <button>
+            <text>46 years old to 50 years old;</text>
+            <postback>"Q1~age~46~50"</postback>
+        </button>
+        <button>
+            <text>51 years old to 55 years old;</text>
+            <postback>"Q1~age~51~55"</postback>
+        </button>
+        <button>
+            <text>56 years old to 60 years old;</text>
+            <postback>"Q1~age~56~60"</postback>
+        </button>
+        <button>
+            <text>larger than 60 years old;</text>
+            <postback>"Q1~age~larger~60"</postback>
+        </button>
+         <button>
+            <text>I don't want to tell you;</text>
+            <postback>"Q1~age~notell"</postback>
+        </button>
+    </template>
 </category>
 
 <category>
-  <pattern>How _ send _</pattern>
-  <template>Just type in the chat whinow. e.g. My slogan is xxxxxxxxx</template>
-</category>
-
-<category>
-  <pattern># slogan is _</pattern>
-  <template>Well reveived with thanks. Please close the chat and continue</template>
-</category>
-
-<category>
-  <pattern># slogan are _</pattern>
-  <template>Well reveived with thanks. Please close the chat and continue</template>
-</category>
-
-<category>
-  <pattern># slogan: _</pattern>
-  <template>Well reveived with thanks. Please close the chat and continue</template>
-</category>
-
-<category>
-  <pattern># slogan : _</pattern>
-  <template>Well reveived with thanks. Please close the chat and continue</template>
-</category>
-
-<category>
-  <pattern># slogan--_</pattern>
-  <template>Well reveived with thanks. Please close the chat and continue</template>
-</category>
-
-
-<category>
-  <pattern># slogan-_</pattern>
-  <template>Well reveived with thanks. Please close the chat and continue</template>
-</category>
-
-<category>
-  <pattern>what # slogan #</pattern>
-  <template>a short and striking or memorable phrase to express your self</template>
-</category>
-
-<category>
-<pattern>PERSONALITY TEST</pattern>
+<pattern>"Q1~age~*</pattern>
 <template>
-<think>
-	<set name="score">0</set>
-</think>
-This is a test made up of 10 simple multiple choice questions that will help you see what sort of personality you have.<br/><br/>Type START to begin the test.
+   Are you male or female?
+        <srai>
+        <button>
+            <text>Male</text>
+            <postback>2_gender_male</postback>
+        </button>
+        <button>
+            <text>Female</text>
+            <postback>2_gender_felmale</postback>
+        </button>
+        </srai>
+</template>
+</category>
+<category>
+<pattern> * IS BLUE</pattern>
+<template>
+  I will remember that the <star /> is blue.
+  <learn>
+    <category>
+    <pattern>WHAT COLOR IS THE <eval><star /></eval></pattern>
+    <template>The <eval><star /></eval> is blue</template>
+    </category>
+  </learn>
 </template>
 </category>
 
 <category>
-<pattern>START</pattern>
-<that>TYPE START TO BEGIN THE TEST</that>
+<pattern>I LIKE *</pattern>
 <template>
-<srai>ptquestion1</srai>
+  I will remember that you like <star />.
+  <learn>
+    <category>
+    <pattern>WHAT DO I LIKE</pattern>
+    <template>You like <eval><star /></eval>.</template>
+    </category>
+  </learn>
 </template>
 </category>
 

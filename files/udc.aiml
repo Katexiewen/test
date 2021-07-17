@@ -84,15 +84,5 @@
 </random></template>
 </category>
 
-<category>
-    <pattern>I am *</pattern>
-    <template>Thanks for telling me 
-    <learnf>
-    <category>
-        <pattern>What am I</pattern>
-        <template>You told me you were <eval><star/></eval></template>
-    </category>
-    </learnf>
-    </template>
-</category>
+
 </aiml>
