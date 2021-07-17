@@ -72,15 +72,6 @@
 <template>
    Are you male or female?
         
-        <button>
-            <text>Male</text>
-            <postback>2_gender_male</postback>
-        </button>
-        <button>
-            <text>Female</text>
-            <postback>2_gender_felmale</postback>
-        </button>
-        
 </template>
 </category>
 
