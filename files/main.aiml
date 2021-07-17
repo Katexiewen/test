@@ -68,10 +68,10 @@
 </category>
 
 <category>
-<pattern>"Q1~age~*</pattern>
+<pattern>*Q1~age~*</pattern>
 <template>
    Are you male or female?
-        <srai>
+        
         <button>
             <text>Male</text>
             <postback>2_gender_male</postback>
@@ -80,9 +80,10 @@
             <text>Female</text>
             <postback>2_gender_felmale</postback>
         </button>
-        </srai>
+        
 </template>
 </category>
+
 <category>
 <pattern> * IS BLUE</pattern>
 <template>
