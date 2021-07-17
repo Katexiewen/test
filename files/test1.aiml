@@ -15,4 +15,11 @@
      </category>
     <category><pattern>*</pattern><template>Sorry I didn't get it =(.</template></category>
 
+<category>
+    <pattern>*Q1~age~*</pattern>
+    <template>
+       Are you male or female?
+            
+    </template>
+</category>
 </aiml>
